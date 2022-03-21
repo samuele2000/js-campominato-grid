@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+body{
+    background-color: rgb(15, 151, 15);
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell{
+    width: calc(100% / 10);
+    height: 80px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.color-cell{
+    background-color: rgb(191, 194, 18);
+}
